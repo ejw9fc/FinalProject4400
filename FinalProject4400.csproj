@@ -1,0 +1,112 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Icons\01d_t%402x.png" />
+    <None Remove="Assets\Icons\01d_w%402x.png" />
+    <None Remove="Assets\Icons\01n_t%402x.png" />
+    <None Remove="Assets\Icons\01n_w%402x.png" />
+    <None Remove="Assets\Icons\02d_t%402x.png" />
+    <None Remove="Assets\Icons\02d_w%402x.png" />
+    <None Remove="Assets\Icons\02n_t%402x.png" />
+    <None Remove="Assets\Icons\02n_w%402x.png" />
+    <None Remove="Assets\Icons\03d_t%402x.png" />
+    <None Remove="Assets\Icons\03d_w%402x.png" />
+    <None Remove="Assets\Icons\03n_t%402x.png" />
+    <None Remove="Assets\Icons\03n_w%402x.png" />
+    <None Remove="Assets\Icons\04d_t%402x.png" />
+    <None Remove="Assets\Icons\04d_w%402x.png" />
+    <None Remove="Assets\Icons\04n_t%402x.png" />
+    <None Remove="Assets\Icons\04n_w%402x.png" />
+    <None Remove="Assets\Icons\09d_t%402x.png" />
+    <None Remove="Assets\Icons\09d_w%402x.png" />
+    <None Remove="Assets\Icons\09n_t%402x.png" />
+    <None Remove="Assets\Icons\09n_w%402x.png" />
+    <None Remove="Assets\Icons\10d_t%402x.png" />
+    <None Remove="Assets\Icons\10d_w%402x.png" />
+    <None Remove="Assets\Icons\10n_t%402x.png" />
+    <None Remove="Assets\Icons\10n_w%402x.png" />
+    <None Remove="Assets\Icons\11d_t%402x.png" />
+    <None Remove="Assets\Icons\11d_w%402x.png" />
+    <None Remove="Assets\Icons\11n_t%402x.png" />
+    <None Remove="Assets\Icons\11n_w%402x.png" />
+    <None Remove="Assets\Icons\13d_t%402x.png" />
+    <None Remove="Assets\Icons\13d_w%402x.png" />
+    <None Remove="Assets\Icons\13n_t%402x.png" />
+    <None Remove="Assets\Icons\13n_w%402x.png" />
+    <None Remove="Assets\Icons\50d_t%402x.png" />
+    <None Remove="Assets\Icons\50d_w%402x.png" />
+    <None Remove="Assets\Icons\50n_t%402x.png" />
+    <None Remove="Assets\Icons\50n_w%402x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icons\01d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\01n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\02d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\02n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\03d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\03n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\04d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\04n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\09d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\09n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\10d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\10n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\11d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\11n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\13d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\13n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\50d_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\50n_w@2x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
